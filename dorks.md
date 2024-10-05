@@ -40,7 +40,10 @@ org:shopify (SSH_PRIVATE_KEY= OR SSH_PUBLIC_KEY= OR id_rsa= OR id_dsa= OR id_ed2
 ```
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+# 7-For Payment Processor
+```bash
+(STRIPE_SECRET_KEY= OR STRIPE_API_KEY= OR STRIPE_CLIENT_SECRET= OR STRIPE_ACCESS_TOKEN= OR STRIPE_PUBLIC_KEY= OR PAYPAL_CLIENT_ID= OR PAYPAL_SECRET= OR PAYPAL_API_KEY= OR PAYPAL_ACCESS_TOKEN= OR BRAINTRREE_ACCESS_TOKEN= OR BRAINTRREE_MERCHANT_ID= OR BRAINTRREE_PUBLIC_KEY= OR BRAINTRREE_PRIVATE_KEY=)
+```
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
