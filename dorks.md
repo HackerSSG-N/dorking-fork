@@ -1,4 +1,4 @@
-# For password
+# 1-For password
 
 ### Usage org:uber (below dork)
 ```bash
@@ -6,7 +6,7 @@ password= NOT password=(password) NOT password=(value) NOT password=(val) NOT pa
 ```
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# For Github Token
+# 2-For Github Token
 
 ### Usage org:uber (below dork)
 ## Normal
@@ -20,7 +20,7 @@ password= NOT password=(password) NOT password=(value) NOT password=(val) NOT pa
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# For API Key
+# 3-For API Key
 ```bash
 org:shopify (API_KEY= OR API_SECRET= OR API_TOKEN= OR API_AUTH_KEY= OR API_ACCESS_KEY= OR API_ACCESS_TOKEN= OR API_SECRET_KEY= OR API_AUTH_TOKEN= OR API_CLIENT_KEY= OR API_CLIENT_SECRET= OR API_CREDENTIALS= OR API_PRIVATE_KEY= OR API_PUBLIC_KEY= OR API_SECURITY_KEY= OR API_SECURITY_TOKEN= OR API_ENCRYPTION_KEY= OR API_APP_KEY= OR API_APP_SECRET= OR API_KEY_SECRET= OR API_OAUTH_TOKEN= OR API_BEARER_TOKEN= OR API_SIGNING_KEY= OR API_AUTHORIZATION_TOKEN= OR API_MASTER_KEY=) NOT (API_KEY=<Your> OR API_SECRET={Your app API Secret} OR API_SECRET_KEY OR API_KEY=... OR api_key=(api_key) OR API_KEY=${withAPIKey} OR API_SECRET=YOUR_SHOPIFY_SECRET OR API_KEY=YOUR_SHOPIFY_API_KEY OR API_KEY=$ OR API_KEY=<Your Shopify API key> OR API_KEY=<your-api-key> OR api_key=your_api_key OR API_KEY=test-api-key OR API_SECRET=test-secret-key OR api_key=\"YOUR API KEY\")
 ```
