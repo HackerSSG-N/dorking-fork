@@ -106,3 +106,31 @@ This GitHub dork serves as a valuable tool for security researchers and develope
 ```bash
 (GITHUB_TOKEN= OR GH_TOKEN= OR GITHUB_ACCESS_TOKEN= OR GITHUB_API_TOKEN= OR GH_ACCESS_TOKEN= OR GH_API_TOKEN= OR GITHUB_SECRET= OR GH_SECRET= OR GITHUB_PERSONAL_ACCESS_TOKEN= OR GH_PERSONAL_ACCESS_TOKEN= OR GITHUB_OAUTH_TOKEN= OR GH_OAUTH_TOKEN= OR GITHUB_APP_TOKEN= OR GH_APP_TOKEN= OR GITHUB_CREDENTIALS= OR GH_CREDENTIALS= OR GITHUB_TOKEN_SECRET= OR GH_TOKEN_SECRET=) NOT (GH_TOKEN='token' OR GH_TOKEN=<secret token> OR GH_TOKEN="<github token>" OR GH_TOKEN="<USER_GITHUB_TOKEN>" OR GH_TOKEN="<YOUR-GITHUB-API-TOKEN>" OR GH_TOKEN="<your_github_access_token>" OR GH_TOKEN=<MY_GITHUB_TOKEN> OR GH_TOKEN=<your_github_token> OR GH_TOKEN="<unecrypted token>" OR GH_TOKEN="<access_token>" OR GH_TOKEN=<copied token> OR GH_TOKEN=<personal github token> OR GH_TOKEN=xxxxxxx OR GH_TOKEN="<Your Personal Access Token>" OR GH_TOKEN="<TOKEN>" OR GH_TOKEN=<token> OR GH_TOKEN=<YOUR TOKEN> OR GH_TOKEN=<github token> OR GH_TOKEN=<<TOKEN>>)
 ```
+
+
+# If found valid so verify and report
+
+```console
+curl -H "Authorization: token GHSAT0AAAAAACUBHYZWBY2ELCUDSV7VBFY4ZUHTKRA" -H "Accept: application/vnd.github.v3+json" https://api.github.com/user
+
+
+
+curl --request GET \
+--url "https://api.github.com/user" \
+--header "Authorization: Bearer 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" \
+--header "X-GitHub-Api-Version: 2022-11-28"
+
+
+
+curl --request GET \
+--url "https://api.github.com/user/repos?visibility=private" \
+--header "Authorization: Bearer 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" \
+--header "X-GitHub-Api-Version: 2022-11-28"
+
+
+
+curl --request GET \
+--url "https://api.github.com/user/repos?visibility=all" \
+--header "Authorization: Bearer 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" \
+--header "X-GitHub-Api-Version: 2022-11-28"
+```
