@@ -1,3 +1,11 @@
+### Simple one:
+
+```bash
+(AWS_ACCESS_KEY_ID= OR AWS_SECRET_ACCESS_KEY= OR AWS_SESSION_TOKEN= OR AWS_SECURITY_TOKEN= OR AWS_SECRET_KEY= OR AWS_KEY= OR aws_access_key_id= OR aws_secret_access_key= OR aws_session_token= OR aws_key=)  NOT (AWS_ACCESS_KEY_ID=<Your AWS Access Key ID> OR AWS_SECRET_ACCESS_KEY=<Your AWS Secret Access Key> OR aws_access_key_id=EXAMPLE OR aws_secret_access_key=EXAMPLE OR AWS_ACCESS_KEY_ID=your_access_key OR AWS_SECRET_ACCESS_KEY=your_secret_key OR aws_access_key_id=\"YOUR_AWS_ACCESS_KEY_ID\" OR aws_secret_access_key=\"YOUR_AWS_SECRET_ACCESS_KEY\" OR aws_access_key_id=test OR aws_secret_access_key=test OR AWS_ACCESS_KEY_ID=<aws-access-key> OR AWS_SECRET_ACCESS_KEY=<aws-secret-access-key> OR AWS_ACCESS_KEY_ID="<s3_key>" OR AWS_SECRET_ACCESS_KEY="<s3_secret_key>" OR  aws_access_key="aws_access_key" OR aws_secret_key="aws_secret_key"
+)
+```
+
+
 ```bash
 (AWS_ACCESS_KEY_ID=a OR AWS_SECRET_ACCESS_KEY=a OR AWS_SESSION_TOKEN=a OR AWS_SECURITY_TOKEN=a OR AWS_SECRET_KEY=a OR AWS_KEY=a OR aws_access_key_id=a OR aws_secret_access_key=a OR aws_session_token=a OR aws_key=a) 
 ```
