@@ -1,3 +1,62 @@
+# Overview 
+# Overview of AWS Credentials GitHub Dork
+
+This GitHub dork is specifically designed to search for exposed Amazon Web Services (AWS) credentials within GitHub repositories. These credentials, if discovered, can lead to unauthorized access to AWS resources, which can have severe security implications.
+
+## Key Parameters
+
+The dork targets various AWS credential parameters, including:
+
+- **Access Keys**:
+  - `AWS_ACCESS_KEY_ID`
+  - `AWS_SECRET_ACCESS_KEY`
+  - `AWS_SESSION_TOKEN`
+  - `AWS_SECURITY_TOKEN`
+  - `AWS_SECRET_KEY`
+  - `AWS_KEY`
+  - `aws_access_key_id`
+  - `aws_secret_access_key`
+  - `aws_session_token`
+  - `aws_key`
+
+## Exclusions
+
+To refine the search and avoid false positives, the dork excludes results that match common placeholder or example values, such as:
+
+- `AWS_ACCESS_KEY_ID=<Your AWS Access Key ID>`
+- `AWS_SECRET_ACCESS_KEY=<Your AWS Secret Access Key>`
+- `aws_access_key_id=EXAMPLE`
+- `aws_secret_access_key=EXAMPLE`
+- `AWS_ACCESS_KEY_ID=your_access_key`
+- `AWS_SECRET_ACCESS_KEY=your_secret_key`
+- `aws_access_key_id="YOUR_AWS_ACCESS_KEY_ID"`
+- `aws_secret_access_key="YOUR_AWS_SECRET_ACCESS_KEY"`
+- `aws_access_key_id=test`
+- `aws_secret_access_key=test`
+- `AWS_ACCESS_KEY_ID=<aws-access-key>`
+- `AWS_SECRET_ACCESS_KEY=<aws-secret-access-key>`
+- `AWS_ACCESS_KEY_ID="<s3_key>"`
+- `AWS_SECRET_ACCESS_KEY="<s3_secret_key>"`
+- `aws_access_key="aws_access_key"`
+- `aws_secret_key="aws_secret_key"`
+
+## Purpose
+
+The primary purpose of this dork is to discover repositories where developers may have accidentally committed AWS credentials. Unauthorized access to AWS can lead to data breaches, unauthorized modifications, and potential financial losses.
+
+## Usage
+
+To effectively use this dork:
+1. Input the dork into the GitHub search bar.
+2. Examine the search results for any repositories that may contain exposed AWS credentials.
+3. Always adhere to responsible disclosure practices if you find any exposed credentials.
+
+## Conclusion
+
+This GitHub dork is a powerful tool for security researchers, system administrators, and developers aiming to identify and remediate exposed AWS credentials in public repositories. Proper handling and management of AWS credentials are essential to maintaining security in cloud environments.
+
+
+
 ### Simple one:
 
 ```bash
