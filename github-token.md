@@ -1,4 +1,72 @@
 # For Github Token
+# Overview of GitHub Token Credential Dork
+
+This GitHub dork is designed to search for repositories that may inadvertently expose sensitive GitHub authentication tokens and API keys. These tokens are crucial for accessing GitHub APIs and services securely, and their exposure can lead to unauthorized access to accounts and repositories.
+
+## Key Parameters
+
+The dork targets a variety of GitHub-related authentication tokens, including:
+
+- **General Tokens**:
+  - `GITHUB_TOKEN`
+  - `GH_TOKEN`
+  - `GITHUB_ACCESS_TOKEN`
+  - `GITHUB_API_TOKEN`
+  - `GH_ACCESS_TOKEN`
+  - `GH_API_TOKEN`
+  - `GITHUB_SECRET`
+  - `GH_SECRET`
+  - `GITHUB_PERSONAL_ACCESS_TOKEN`
+  - `GH_PERSONAL_ACCESS_TOKEN`
+  
+- **OAuth Tokens**:
+  - `GITHUB_OAUTH_TOKEN`
+  - `GH_OAUTH_TOKEN`
+  
+- **App Tokens**:
+  - `GITHUB_APP_TOKEN`
+  - `GH_APP_TOKEN`
+  
+- **Credentials**:
+  - `GITHUB_CREDENTIALS`
+  - `GH_CREDENTIALS`
+  - `GITHUB_TOKEN_SECRET`
+  - `GH_TOKEN_SECRET`
+  
+- **API Keys**:
+  - `GITHUB_API_KEY`
+  - `GH_API_KEY`
+  
+- **Client Secrets**:
+  - `GITHUB_CLIENT_SECRET`
+  - `GH_CLIENT_SECRET`
+  
+- **Session Tokens**:
+  - `GITHUB_SESSION_TOKEN`
+  - `GH_SESSION_TOKEN`
+  
+- **Service Tokens**:
+  - `GITHUB_SERVICE_TOKEN`
+  - `GH_SERVICE_TOKEN`
+  
+- **Access Keys**:
+  - `GITHUB_ACCESS_KEY`
+  - `GH_ACCESS_KEY`
+
+## Purpose
+
+The primary purpose of this dork is to identify repositories where developers may have accidentally committed sensitive authentication tokens and keys. Exposing these credentials can allow attackers to gain unauthorized access to GitHub accounts and repositories, potentially leading to data breaches or malicious activities.
+
+## Usage
+
+To use this dork effectively:
+1. Enter the dork into the GitHub search bar.
+2. Review the search results for repositories that may contain exposed tokens and credentials.
+3. Follow ethical guidelines and responsible disclosure practices if you identify any exposed tokens.
+
+## Conclusion
+
+This GitHub dork serves as a valuable tool for security researchers and developers to uncover potential vulnerabilities related to authentication tokens. Proper management of these credentials is vital for maintaining the security of GitHub accounts and repositories.
 
 
 ### ==>Simple one
