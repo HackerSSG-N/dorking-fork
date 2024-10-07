@@ -5,6 +5,7 @@
 )
 ```
 
+# Below ones are (a-z)(0-9)(special character)
 
 ```bash
 (AWS_ACCESS_KEY_ID=a OR AWS_SECRET_ACCESS_KEY=a OR AWS_SESSION_TOKEN=a OR AWS_SECURITY_TOKEN=a OR AWS_SECRET_KEY=a OR AWS_KEY=a OR aws_access_key_id=a OR aws_secret_access_key=a OR aws_session_token=a OR aws_key=a) 
