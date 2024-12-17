@@ -26,3 +26,22 @@ Ssl.cert.subject.CN:"*.redacted.com"+200 http.title:"Admin"
 ```bash
 Ssl.cert.subject.CN:"redacted.com" x-jenkins 200
 ```
+
+## Open instances of  Sonarqube
+```bash
+Ssl.cert.subject.CN:"redacted.com" http.favicon.hash:”1485257654"
+```
+
+## Admin panels
+```bash
+ssl.cert.subject.cn:"company.com" http.title:"admin"
+```
+```bash
+ssl:"company.com" http.title:"admin"
+```
+```bash
+ssl.cert.subject.cn:"company.com" admin
+```
+```bash
+ssl:"company.com" admin
+```
