@@ -135,6 +135,39 @@ http.html:"index of /" http.html:".git"
 http.html:"index of /" http.html:"gitconfig"
 ```
 
+## Exposed Docker Registry API Without Authentication
+```bash
+"Docker Registry HTTP API" -"UNAUTHORIZED"
+```
+
+## DRUPAL TAKEOVER
+```bash
+http.html:"Set up database" http.html:"Drupal"
+http.title:"Select an installation profile"
+```
+
+## SSO Login (Single Sign-On)
+```bash
+http.html:"SSO Login"
+http.html:"Login with SSO"
+http.html:"Single Sign-On"
+```
+
+## 
+```bash
+
+```
+
+## 
+```bash
+
+```
+
+## 
+```bash
+
+```
+
 ## 
 ```bash
 
@@ -154,3 +187,4 @@ http.html:"index of /" http.html:"gitconfig"
 ```bash
 
 ```
+
