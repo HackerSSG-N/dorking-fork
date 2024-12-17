@@ -1,5 +1,7 @@
 ## When want to test target with shodan must run these queries
-
+```bash
+ssl.cert.subject.CN:"*.target.com"
+```
 ```bash
 Ssl.cert.subject.CN:"redacted.com" http.title:"IIS"
 ```
@@ -153,9 +155,9 @@ http.html:"Login with SSO"
 http.html:"Single Sign-On"
 ```
 
-## 
+## spring boot (if found something so fuzz with that using ffuf will get a P1  bounty)
 ```bash
-
+http.favicon.hash:"116323821"
 ```
 
 ## 
