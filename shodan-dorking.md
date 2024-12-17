@@ -54,3 +54,103 @@ Ssl.cert.subject.CN:"redacted.com" "root@" port:23 -login -password -name -Sessi
 ```bash
 Ssl.cert.subject.CN:"redacted.com" "Set-Cookie: mongo-express=""200 OK"
 ```
+## Default Directory Listing
+```bash
+Ssl.cert.subject.CN:"redacted.com" http.html:"index of /"
+```
+
+## Backup Files
+```bash
+Ssl.cert.subject.CN:"redacted.com" http.html:"index of /" http.html:"backup"
+```
+
+## Compressed Achives
+```bash
+http.html:"index of /" http.html:"tar.gz"
+```
+
+## Database files
+```bash
+http.html:"index of /" http.html:"database"
+http.html:"index of /" http.html:".sql"
+http.html:"index of /" http.html:".db"
+http.html:"index of /" http.html:"db_backup"
+http.html:"index of /" http.html:"mysql.dump"
+http.html:"index of /" http.html:".mdb"
+```
+
+## Configuration files
+```bash
+http.html:"index of /" http.html:".xml"
+http.html:"index of /" http.html:"config.xml"
+
+#tomcat: db connection strings
+http.html:"index of /" http.html:"server.xml"
+```
+
+## Wordpress Configuration Files
+```bash
+http.html:"index of /" http.html:"wp-config.php.txt"
+http.html:"index of /" http.html:"wp-config.txt"
+http.html:"index of /" http.html:"wp-config.php.bak"
+http.html:"index of /" http.html:"wp-config.php.old"
+http.html:"index of /" http.html:"wp-config.php.backup"
+http.html:"index of /" http.html:"wp-config.php.zip"
+http.html:"index of /" http.html:"wp-config.php.tar.gz"
+```
+
+## Passwords
+```bash
+http.html:"index of /" http.html:"pwd"
+http.html:"index of /" http.html:"pass.txt"
+http.html:"index of /" http.html:"password"
+http.html:"index of /" http.html:"password.txt"
+http.html:"index of /" http.html:"passwords.txt"
+http.html:"index of /" http.html:"passwords.zip"
+```
+
+## Windows Server Config Files
+```bash
+http.html:"index of /" http.html:"web.config"
+```
+
+## Exposed Logs
+```bash
+http.html:"index of /" http.html:".log"
+http.html:"index of /" http.html:"access.log"
+http.html:"index of /" http.html:"error.log"
+http.html:"index of /" http.html:"php_error.log"
+http.html:"index of /" http.html:"debug.log"
+```
+
+## Configuration and Version Control Files
+```bash
+http.html:"index of /" http.html:".env"
+http.html:"index of /" http.html:".svn"
+```
+
+## Git Repositories
+```bash
+http.html:"index of /" http.html:".git"
+http.html:"index of /" http.html:"gitconfig"
+```
+
+## 
+```bash
+
+```
+
+## 
+```bash
+
+```
+
+## 
+```bash
+
+```
+
+## 
+```bash
+
+```
