@@ -45,3 +45,12 @@ ssl.cert.subject.cn:"company.com" admin
 ```bash
 ssl:"company.com" admin
 ```
+## Telnet to root access to terminal
+```bash
+Ssl.cert.subject.CN:"redacted.com" "root@" port:23 -login -password -name -Session
+```
+
+## Mongo DB
+```bash
+Ssl.cert.subject.CN:"redacted.com" "Set-Cookie: mongo-express=""200 OK"
+```
