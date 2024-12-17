@@ -159,6 +159,21 @@ http.html:"Single Sign-On"
 ```bash
 http.favicon.hash:"116323821"
 ```
-
+```bash
+/actuator/env
+/actuator/auditevents
+/actuator/beans
+/actuator/caches
+/actuator/configprops
+/actuator/flyway
+/actuator/health
+/actuator/heapdump
+/actuator/httptrace
+/actuator/info
+/actuator/integrationgraph
+/actuator/liquibase
+/actuator/configprops
+/actuator/shutdown
+```
 
 
